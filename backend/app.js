@@ -9,8 +9,8 @@ app.disable('view cache')
 
 paypal.configure({
     'mode' : 'sandbox', //sandbox or live
-    'client_id' : 'ARXRNNUSxHsd6ZYPxLgUnGOn1kuWwtGP5Wd_N952xliJ5YU2wRKnjfukzab51CpnQsub3AI54vJe7omg',
-    'client_secret' : 'EHXIF8xt9ESoZlXM9-9E2opeeSZ6lV56sbLJVypnzeQFPGAntMWPEHhHVkafMcOginUAYclNqGXWFruN'
+    'client_id' : 'Your client id',
+    'client_secret' : 'Your client secret'
 })
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
